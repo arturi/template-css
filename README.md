@@ -24,6 +24,8 @@ var style = css`
 `
 ```
 
+Atom (and possibly other editors) will automatically syntax highlight your CSS inside template strings, if its passed to a function called `css`.
+
 ## Optional `babel-plugin-template-strings-postcss`
 
 Runs any PostCSS plugin on the contents of your template string.
@@ -42,3 +44,7 @@ Runs any PostCSS plugin on the contents of your template string.
     }]
   ]
 }
+
+## See also
+* https://github.com/shama/bel
+* https://github.com/rtsao/csjs
