@@ -1,0 +1,29 @@
+{
+  "name": "template-css",
+  "version": "0.1.0",
+  "description": "Write CSS in template strings and it gets injected to DOM like ✨ optionally parse with any PostCSS plugin",
+  "main": "index.js",
+  "dependencies": {
+    "insert-css": "2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturi/template-css.git"
+  },
+  "keywords": [
+    "template-strings",
+    "bable-plugin",
+    "css",
+    "insert-css"
+  ],
+  "author": "Artur Paikin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arturi/template-css/issues"
+  },
+  "homepage": "https://github.com/arturi/template-css#readme"
+}
