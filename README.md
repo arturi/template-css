@@ -28,7 +28,7 @@ Atom (and possibly other editors) will automatically syntax highlight your CSS i
 
 You can also parse your CSS with any PostCSS plugin.
 
-## Optional `babel-plugin-template-strings-postcss`
+## Optional [`babel-plugin-template-strings-postcss`](https://github.com/arturi/babel-plugin-template-strings-postcss)
 
 Runs any PostCSS plugin on the contents of your template string.
 
@@ -51,3 +51,6 @@ Runs any PostCSS plugin on the contents of your template string.
 ## See also
 * https://github.com/shama/bel
 * https://github.com/rtsao/csjs
+* https://github.com/MunGell/babel-plugin-template-string-processing
+* https://github.com/rtsao/babel-plugin-csjs-postcss
+* https://github.com/arturi/babel-plugin-template-strings-postcss
