@@ -1,6 +1,6 @@
 # template-css
 
-Write CSS in template strings and it gets injected to DOM like :sparkles: optionally parse with any PostCSS plugin. Like so:
+Write CSS in template strings and it gets injected to DOM like :sparkles: Like so:
 
 
 ```js
@@ -26,12 +26,14 @@ var style = css`
 
 Atom (and possibly other editors) will automatically syntax highlight your CSS inside template strings, if its passed to a function called `css`.
 
+You can also parse your CSS with any PostCSS plugin.
+
 ## Optional `babel-plugin-template-strings-postcss`
 
 Runs any PostCSS plugin on the contents of your template string.
 
 **Example .babelrc**
-
+```
 {
   "plugins": [
     ["babel-plugin-template-strings-postcss", {
@@ -44,6 +46,7 @@ Runs any PostCSS plugin on the contents of your template string.
     }]
   ]
 }
+```
 
 ## See also
 * https://github.com/shama/bel
