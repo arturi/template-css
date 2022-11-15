@@ -14,7 +14,7 @@ function css (template) {
     return accumulator + expressions.shift() + part
   })
 
-  if (global.document) {
+  if (window && window.document) {
     insertCss(style)
   }
 
